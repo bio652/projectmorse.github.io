@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: violet;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;*/
+}
+.container {
+    background-color: violet;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.main{
+    padding-bottom: 300px;
+}
+.toggle{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-around;
+    margin-bottom: 20px;
+}
+#toggleButton {
+    background-color: #000;
+    color:violet;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+#output2{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.trnsline {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.eyt{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+} 
+.output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px;
+}
+.button {
+    background-color: #000;
+    color:violet;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+   
+}
+#textInput{
+    background-color: white;
+    color:#000;
+    padding: 10px 20px;
+    border: none;
+    border-color: #000;
+    border-radius: 20px;
+    cursor: pointer; 
+}
+#output{
+    background-color: white;
+    color:#000;
+    padding: 10px 20px;
+    border: none;
+    border-color: #000;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0;
+}
